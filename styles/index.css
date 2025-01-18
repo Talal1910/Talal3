@@ -1,33 +1,44 @@
-/* Main styles for the page */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-h1 {
+/* Reset some default styles */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Use a sans-serif font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+/* Header styles */
+header {
+    background-color: #007bff; /* Bootstrap blue */
+    color: white; /* White text color */
+    padding: 10px 0; /* Vertical padding */
+    text-align: center; /* Center align text */
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 10px; /* Space below the heading */
 }
 
 h2 {
-    color: #007BFF;
+    color: #007bff; /* Blue color for subheadings */
 }
 
+/* Section styles */
 section {
-    margin: 20px;
-    padding: 15px;
-    background-color: white;
-    border-radius: 5px;
+    margin: 20px; /* Margin around sections */
+    padding: 15px; /* Padding inside sections */
+    background-color: white; /* White background for sections */
+    border-radius: 5px; /* Rounded corners */
 }
 
+/* Footer styles */
 footer {
-    text-align: center;
-    padding: 10px 0;
+    text-align: center; /* Center align footer text */
+    padding: 10px 0; /* Vertical padding for footer */
 }
