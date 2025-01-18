@@ -1,44 +1,51 @@
 /* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Main styles for the body */
 body {
-    font-family: Arial, sans-serif; /* Use a sans-serif font */
-    background-color: #f4f4f4; /* Light gray background */
-    color: #333; /* Dark gray text color */
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* Header styles */
-header {
-    background-color: #007bff; /* Bootstrap blue */
-    color: white; /* White text color */
-    padding: 10px 0; /* Vertical padding */
-    text-align: center; /* Center align text */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
-/* Heading styles */
-h1 {
-    margin-bottom: 10px; /* Space below the heading */
+/* Navigation styles */
+#main-nav {
+    background-color: #333;
 }
 
-h2 {
-    color: #007bff; /* Blue color for subheadings */
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-/* Section styles */
-section {
-    margin: 20px; /* Margin around sections */
-    padding: 15px; /* Padding inside sections */
-    background-color: white; /* White background for sections */
-    border-radius: 5px; /* Rounded corners */
+#main-nav li {
+    display: inline;
+}
+
+#main-nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#main-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Main content styles */
+#content {
+    padding: 20px;
 }
 
 /* Footer styles */
-footer {
-    text-align: center; /* Center align footer text */
-    padding: 10px 0; /* Vertical padding for footer */
+#main-footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
